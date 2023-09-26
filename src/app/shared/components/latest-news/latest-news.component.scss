@@ -1,16 +1,15 @@
 .content__latest-news {
   display: flex;
   flex-direction: column;
-}
-
-.header__latest-news {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  & > h1 {
+    margin-bottom: 16px;
+  }
 }
 
 .news__latest-news {
   display: flex;
   flex-direction: row;
+  & > div {
+    margin: 0 4px;
+  }
 }
