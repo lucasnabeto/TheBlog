@@ -1,0 +1,16 @@
+.content__latest-news {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__latest-news {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news__latest-news {
+  display: flex;
+  flex-direction: row;
+}
