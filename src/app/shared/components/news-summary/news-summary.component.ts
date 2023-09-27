@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { NewsContent } from 'src/app/data/fake-data';
 
 @Component({
@@ -19,4 +18,6 @@ export class NewsSummaryComponent {
     subject: undefined,
     title: '',
   };
+
+  descriptionLength: number = 240;
 }

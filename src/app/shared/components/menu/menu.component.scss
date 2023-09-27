@@ -2,9 +2,21 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 2rem 0;
 }
+
 .links__menu {
   display: flex;
   flex-direction: row;
   list-style: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-right: 2rem;
 }

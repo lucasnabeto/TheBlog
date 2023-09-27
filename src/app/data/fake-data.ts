@@ -77,7 +77,7 @@ export const fakeData: NewsContent[] = [
     id: 4,
     link: 'https://edition.cnn.com/2021/11/29/health/5-steps-habit-builder-wellness/index.html',
     coverImage:
-      'https://ggsc.s3.amazonaws.com/images/uploads/Habits_word_cloud.jpg',
+      'https://domf5oio6qrcr.cloudfront.net/medialibrary/4517/trade-bad-habits-for-good-ones.png',
     author: 'CNN',
     publicationDate: '09/22/2023',
     title: 'How to build a habit in 5 steps, according to science',
