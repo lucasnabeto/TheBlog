@@ -1,1 +1,19 @@
-<p>main-news works!</p>
+<a [href]="news.link" target="_blank">
+  <div class="content__news-summary">
+    <img
+      class="publication-image__news-summary"
+      [src]="news.coverImage"
+      alt=""
+    />
+    <div>
+      <span class="publication-infos__news-summary"
+        >{{ news.author }} - {{ news.publicationDate }}</span
+      >
+      <h1 class="publication-title__news-summary">{{ news.title }}</h1>
+      <p class="publication-description__news-summary">
+        {{ news.description.slice(0, descriptionLength).trim() }}...
+      </p>
+      <span class="publication-subject__news-summary">{{ news.subject }}</span>
+    </div>
+  </div>
+</a>
